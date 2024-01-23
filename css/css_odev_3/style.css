@@ -1,0 +1,136 @@
+    body {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #1F2123;
+    }
+
+    .header {
+        list-style-type: none;
+        margin: 10px;
+        overflow: hidden;
+        margin-right: 16px;
+        font-family: arial,sans-serif;
+        font-size: 13px;
+    }
+    
+    .headerli-left{
+        display: inline;
+        float: left;
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        padding-top: 15px;
+    }
+    
+    .headerli a {
+        display: inline;
+        float: right;
+        color: white;
+        padding: 5px 5px;
+        text-decoration: none;
+    }
+    
+    .headerli a:hover {
+        text-decoration: underline;
+    }
+
+
+
+    input[type=button] {
+        border: none;
+        color: white;
+        background-color: #2b2c2d;
+        height: 30px;
+        border-radius: 5px;
+    
+    }
+    input[type=button]:hover{
+        border: 1px solid rgb(105, 102, 102);
+        color: white;
+        background-color: #2b2c2d;
+        height: 30px;
+        border-radius: 5px;
+    
+    }
+    input[type=text] {
+    
+        width: 700px;
+        height: 50px;
+        border: 1px solid rgb(105, 102, 102);
+        background-color: #1F2123;
+        border-radius: 30px; 
+    }
+    input[type=text]:hover {
+    
+        width: 700px;
+        height: 50px;
+        background-color: #303135;
+        border-radius: 30px; 
+        border: none;
+    }
+    div.google {
+        padding: 300px;
+
+    } 
+
+
+
+    footer {
+    
+        border: 1; 
+    text-align: end;
+    
+        font-size: 20px;
+        position:fixed;
+        bottom: 0px;
+    }
+
+    p {
+        color: white;
+        margin-left: 30px;
+        text-align: left;
+
+    }
+
+    hr {
+        color: grey;
+
+    }
+
+    .footer {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #1F2123;
+        border-top: 1px solid #1F2123;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-left: -8px;
+        line-height: 20px;
+        background-color: #110f0f;
+        list-style-type: none;  
+    }
+    
+    .footerli {
+        float: left;
+    }
+    
+    .footerli a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        margin-left: 14px;
+        margin-right: -20px;
+    }
+    
+    .footerli a:hover {
+        text-decoration: underline;
+    }
+    
+    
